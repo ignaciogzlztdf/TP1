@@ -1,0 +1,91 @@
+body {
+  background-color: black;
+}
+
+form {
+  /* Centrar formulario */
+  margin: 0 auto;
+  width: 400px;
+  /* Esquema del formulario */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Tamaño y alineación uniforme */
+  display: inline-block;
+  width: 90px;
+  /* text-align: right; */
+}
+
+input {
+  /* Para asegurarse de que todos los 
+  campos de texto tienen la misma configuración de letra*/
+  font: 1em sans-serif;
+
+  /* Tamaño uniforme del campo de texto */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Hacer coincidir los bordes del campo del formulario */
+  border: 1px solid #999;
+}
+input:focus {
+  /* Destacado adicional para elementos que tienen el cursor */
+  border-color: #000;
+}
+button {
+  /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+     entre las etiquetas y sus campos de texto */
+  margin-left: .5em;
+}
+button:hover {
+  background-color: darkred;
+  font-weight: bolder;
+  cursor: pointer;
+  border-color: whitesmoke;
+  border-radius: 10px;
+}
+button:active {
+  background-color: navy;
+}
+.button {
+  /* Alinear los botones con los campos de texto */
+  padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+}
+.texto {
+  color: aquamarine;
+}
+.carrito-de-compras {
+  /* Centrar formulario */
+  margin: 0 auto;
+  width: 400px;
+  /* Esquema del formulario */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+.titulo-ingresar-producto, .carrito-de-compras-titulo {
+  margin: auto;
+  text-align: center;
+}
+.contenedor-total {
+  display: flex;
+  justify-content: space-between;
+}
+.total-titulo {
+  display: inline-block;
+}
+.contenedor-botones {
+  display: flex;
+}
